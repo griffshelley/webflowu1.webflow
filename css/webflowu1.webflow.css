@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Montserrat, sans-serif;
+  color: #745785;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-family: Merriweather, serif;
+  color: #745785;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #1c1b1b;
+  font-size: 15px;
+  line-height: 23px;
+}
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-top: 9px;
+  padding: 0px 15px 4px;
+  border-radius: 10px;
+  background-color: #ed7632;
+  box-shadow: #3d3b3b 0px 0px 6px 0px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 43px;
+  text-align: center;
+  text-decoration: none;
+}
+.button.app {
+  box-shadow: #3d3b3b 0px 0px 6px 0px;
+}
+.button.app-store {
+  background-color: #745785;
+  box-shadow: #3d3b3b 0px 0px 6px 0px;
+}
+.hero-header {
+  font-family: Montserrat, sans-serif;
+  color: #f5eded;
+  font-size: 42px;
+  font-weight: 700;
+}
+.price-text {
+  color: #f5f0f7;
+  font-size: 25px;
+  line-height: 28px;
+}
+.emphasis {
+  font-family:'Droid Sans', sans-serif;
+  color: #d91e1e;
+  font-size: 22px;
+}
+.emphasis.extra {
+  color: #07e380;
+  font-size: 24px;
+  font-weight: 700;
+}
+.emphasi {
+  color: #d91c1c;
+}
+.emphasi.contact {
+  font-family:'Changa One', Impact, sans-serif;
+}
+.section1 {
+  background-image: none;
+}
+.section1.gray {
+  background-color: #f5f6f7;
+}
+.section1.price {
+  height: 65px;
+  background-color: #745785;
+  background-image: none;
+}
+.section1.hero1 {
+  background-image: url(../images/hero-background.jpg);
+  background-size: cover;
+}
+.folder-pic {
+  margin-right: 35px;
+  margin-bottom: 9px;
+  padding-top: 29px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  float: none;
+}
+.funnel {
+  margin-right: 7px;
+  margin-left: 4px;
+  padding-top: 27px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.files {
+  padding-top: 32px;
+  padding-bottom: 0px;
+}
+.share-img {
+  margin-left: 12px;
+  padding-left: 0px;
+}
+.hero-paragraph {
+  color: #ebe4e4;
+}
+.organization-clumn {
+  margin-top: 35px;
+}
+.organization-image {
+  margin-top: 27px;
+}
+.hero-row1 {
+  margin-top: 1px;
+}
+.big-iphone {
+  margin-top: -2px;
+  margin-bottom: -37px;
+  padding-top: 2px;
+}
+.slate {
+  margin-left: -54px;
+  padding-right: 11px;
+  letter-spacing: 6px;
+}
+.task-bar-organize {
+  font-family: Varela, sans-serif;
+  text-transform: uppercase;
+}
+.top-section-1 {
+  padding-top: 19px;
+  padding-bottom: 10px;
+}
+.features {
+  font-size: 25px;
+  text-align: center;
+}
+.footer-section {
+  padding-top: 22px;
+}
+.foter-columns {
+  border: 1px solid #b8b2b2;
+}
+@media (max-width: 991px) {
+  p {
+    direction: ltr;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .hero-header {
+    font-size: 38px;
+  }
+  .section1.price {
+    background-image: -webkit-linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+    background-image: -o-linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+    background-image: linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+  }
+  .section1.hero1 {
+    background-image: url(../images/hero-background.jpg);
+    background-position: 50% 50%;
+  }
+}
+@media (max-width: 767px) {
+  .section1 {
+    text-align: center;
+  }
+  .section1.price {
+    background-image: -webkit-linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+    background-image: -o-linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+    background-image: linear-gradient(black, #5a5a5a 9%, #898989 79%, white 99%);
+  }
+  .section1.hero1 {
+    background-image: url(../images/hero-background.jpg);
+    background-position: 50% 50%;
+  }
+}
+@media (max-width: 479px) {
+  .hero-header {
+    font-size: 32px;
+  }
+  .price-text {
+    font-size: 32px;
+  }
+  .section1.hero1 {
+    background-image: url(../images/hero-background.jpg);
+    background-position: 50% 50%;
+  }
+}
